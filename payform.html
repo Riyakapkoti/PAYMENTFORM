@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tut.css">
+</head>
+<body>
+    <h1>Payment Form :-</h1>
+    <br>
+    <div class="alldivs">
+        <div class="firstdiv">
+    <h3>USER INFORMATION:</h3>
+   <form action="/action.php" class="form">
+    <h4>NAME</h4>   
+    <input type="text" placeholder="name"></p>
+    <h4>PASSWORD</h4> 
+    <input type="pass1word" placeholder="enter your password" style="color: black;">
+</div>
+<div class="scnddiv">
+    <h4>CHOOSE YOUR DEPARTMENT</h4>
+
+    <select name="cource">
+        <option value="bsc">Nursing</option>
+        <option value="other">other</option>
+        <option value="BCA">BCA(bachelor in computer application)</option>
+        <option value="BBA">BBA(bachlor in business administration)</option>
+        <option value="B.COM">B.COM(bachelor in commerce)</option>
+        <option value="B.TECH">B.TECH(bachlor in technology)</option>
+        <option value="HM">HM(hotal management)</option>
+        <option value="MCA">masters in computer application</option>
+    </select>
+</div>
+<div class="thirddiv">
+    <h4>SELECT YOUR GENDER</h4>
+    <label for="101">
+        <input type="radio" value="male" name="gender" id="101" >Male
+    </label>
+    <label for="102">
+        <input type="radio" value="female" name="gender" id="102" >Female
+    </label>
+    <label for="103">
+        <input type="radio" value="other" name="gender" id="103" >Other
+    </label>
+
+
+    <h4>ENTER YOUR MAIL</h4>
+
+    <input type="Email" name="Email" placeholder="Email"required>
+    <h4>ADDRESS</h4>
+
+    <input type="Address" name="Address" placeholder="enter your Address"required>
+    <h4>PHONE NUMBER</h4>
+
+     <input type="Phoneno" name="Phoneno" placeholder="enter your Phonenumber"required>
+</div>
+<div class="fourthdiv">
+    <h2>Select Payment Method</h2>
+     <select name="card type" id="card type" requaired>
+        <option value="phonepay">phonepay</option>
+        <option value="rupay">rupay</option>
+        <option value="gpay">gpay</option>
+        <option value="paytm">paytm</option>
+        <option value="upi">upi</option>
+        <option value="debitcard">debitcard</option>
+        </select>
+    </div>
+        <br>
+        <div class="fifthdiv">
+        <h3>SELECT YOUR CITY</h3>
+        CITY: <select name="City" id="City" requaired>
+        <option value="DELHI">DELHI</option>
+        <option value="UTTARAKHAND">UTTARAKHAND</option>
+        <option value="BANGLOURE">BANGLOURE</option>
+        <option value="HARIYANA">HARIYANA</option>
+        <option value="PUNE">PUNE</option>
+        <option value="CHENNAI"CHENNAI></option>
+        <option value="OTHER"OTHER></option>
+        </select>
+    </div>
+    <div class="sixthdiv">
+        <br><br>
+        <h3>CARD INFORMATION</h3>
+        Card NO: <input name="card no" >
+        <br><br>
+        Ex DATE: <input type="date" name="date">
+        <br><br>
+        DATE:   <input type="date" name="date">
+        <br><br>
+        CVV : <input type="number" name="cvv">
+        <br><br>
+        <input type="submit" value="submit">
+    </form>
+</div>
+</div>
+    
+    
+</body>
+</html>
+
+
